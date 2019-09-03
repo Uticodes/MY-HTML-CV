@@ -7,3 +7,6 @@ My post about Flutterwave link https://twitter.com/Utcodes/status/11645385439282
 
 My lucid.blog post about my HTML experience link https://lucid.blog/etim.utibe/post/1566481382
 
+I updated my CV page with CSS, it was fun building building a page with CSS.
+CSS actually added more beauty the the page through the colors, margins, borders, sizes, etc
+
