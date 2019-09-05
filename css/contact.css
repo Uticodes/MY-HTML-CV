@@ -5,6 +5,10 @@
     font-family: 'Slabo 27px', sans-serif;
 
 }
+botton:active {
+    box-shadow: none;
+    top: 5px;
+  }
 
 body{
     background-image: url(https://res.cloudinary.com/utibe/image/upload/v1567633215/Personal/mecode_w6znpf.jpg);
