@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Me</title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/contact.css">
+    <script src="js/contact.js"></script>
+</head>
+
+<body>
+        <div class="top">
+                <nav>
+                  <ul>
+                    <li><a href="utibe.html">Home</a></li>
+
+                    <li><a href="contact.html" class="active">Contact Me</a></li>
+                
+                  </ul>
+                </nav>
+               </div>
+                <!-- <div class="clear"></div> -->
+              </div>
+
+        <section class="contact-section">
+                <div class="contact-section--form">
+                    
+                    <form action="https://docs.google.com/forms/d/1kzzZKjl9o0I6pZYBjWuIOoIwXjDBeQseXSg_7FK-AWU/edit" method="post" target="_blank">             
+                  
+                        <div class="u-margin-bottom-medium">
+                                <h2 class="heading-primary">
+                                        Contact Us
+                                </h2>
+                        </div>
+                        <div class="form__group">
+                            <input type="text" class="form__input" placeholder="Name" id="name" minlength="4" name="entry.1235228590" required>
+                            <label for="name" class="form__label">Name</label>
+                        </div>
+
+                        <div class="form__group">
+                                <label for="title" class="form_title_input">Title 
+                                    <select id="title"  class="form__label" name="title">
+                                        <option value="mr">Mr</option>
+                                        <option value="mrs">Mrs</option>
+                                        <option value="master">Master</option>
+                                        <option value="miss">Miss</option>
+                                      </select> </label>
+                        
+                            </div>
+
+                            <div class="form__group">
+                                    <input type="email" class="form__input"  pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*$"
+
+                                    placeholder="Email Address" id="email" name="entry.940999665" required>
+                                    <label for="email" class="form__label">Email Address</label>
+                            </div>
+
+        
+                        <div class="form__group">
+                               
+                                <textarea class="form__input" placeholder="Message" minlength="20" id="message" name="entry.1141213901" required></textarea>
+                                <label for="name" class="form__label">Message</label>
+                            </div>
+        
+                            <div class="form__group">
+                                    <button class="btn btn--green">Submit &rarr;</button>
+                                </div>  
+        
+                      </form>
+                   
+                 
+                        
+                    </section>
+</body>
+
+</html>
